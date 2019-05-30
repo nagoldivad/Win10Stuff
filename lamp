@@ -1,0 +1,40 @@
+#!/bin/bash
+
+# ## lamp
+# ## version 1.0
+# ## April 2017
+#
+# Created by David M. Logan
+#
+# This is for WSL Windows Subsystem for Linux
+# This is a bash script (it might not work with sh)
+# 
+# ## Usage:
+# lamp [option]
+# argument can be either "start" or "stop"
+
+# check for no argument
+if [ -z $1 ]; then
+	echo "You must use an argument, either start or stop"
+	exit 1;
+fi
+
+# "start" arg - start lamp
+if [ $1 == "start" ]; then
+	# start apache2
+	apache2ctl start
+	#start mysql
+	service mysql start
+	# exit
+	exit 0
+fi
+
+# "stop" arg - stop lamp
+if [ $1 == "stop" ]; then
+	# start apache2
+	apache2ctl stop
+	#start mysql
+	service mysql stop
+	# exit
+	exit 0
+fi
