@@ -14,7 +14,7 @@ Then install software...
 
 Example of my initial install:
 ```
-choco install -y 7zip adobereader calibre cpu-z crystaldiskinfo crystaldiskmark dropbox FileOptimizer filezilla Firefox geany gimp GoogleChrome InkScape MusicBee notepadplusplus SharePointDesigner2013x32 shutup10 sumatrapdf vscode windirstat wsltty xnview hwinfo
+choco install -y 7zip adobereader calibre cpu-z crystaldiskinfo crystaldiskmark dropbox FileOptimizer filezilla Firefox gimp GoogleChrome InkScape MusicBee notepadplusplus SharePointDesigner2013x32 shutup10 sumatrapdf vscode windirstat xnview hwinfo processhacker choco install microsoft-windows-terminal
 ```
 
 
