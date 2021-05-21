@@ -28,13 +28,9 @@ Now that [O&O ShutUp10](https://www.oo-software.com/en/shutup10) is installed (v
 For reasons I don't understand installing Sumatra PDF from [the website](https://www.sumatrapdfreader.org/free-pdf-reader.html) seems to make it run better -- probably remove it from the choco list and just install it old school.
 
 
-## Install WSL Windows Subsystem for Linux
+## Install WSL2 Windows Subsystem for Linux
 
-In an administrative PowerShell: Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-
-Then install Ubuntu 18.04 from the Windows Store
-
-Then click the "Ubuntu 18.04" icon and it'll install some stuff, then it'll prompt for a username and password. After that just use WSL Terminal (install via choco) for all your linux terminal needs (and use the Nord theme).
+This section needs to be updated.
 
 
 ## Settings that will speed up Windows 10
