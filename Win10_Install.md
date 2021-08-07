@@ -1,55 +1,43 @@
 # Windows 10 Install Procedure
 
-This is my procedure that I follow after installing Windows 10. Some of these steps might need to be repeated after a Windows 10 upgrade. 
+This is my procedure that I follow after installing Windows 10. Some of these steps might need to be repeated after a Windows 10 upgrade.
+
+
+## Version
+
+This applies to Windows 10 Version 21H1 (10.0.19043 Build 19043) or later. However, most of what is found here will probably apply to any version of Windows 10.
+
 
 ## Remove bloatware
 
 Use the Windows10Debloater PowerShell script: [Windows10Debloater on GitHub](https://github.com/Sycnex/Windows10Debloater)
 
 
-## Install Chocolately
 
-Install Chocolately package manager... [Instructions here.](https://chocolatey.org/install)
-Then install software...
+## Install Winget
 
-Example of my initial install:
-```
-choco install -y 7zip adobereader calibre cpu-z crystaldiskinfo crystaldiskmark dropbox FileOptimizer filezilla Firefox gimp GoogleChrome InkScape MusicBee notepadplusplus SharePointDesigner2013x32 shutup10 sumatrapdf vscode windirstat xnview hwinfo processhacker choco install microsoft-windows-terminal
-```
+Download the winget installer [from here.](https://github.com/microsoft/winget-cli/releases)
 
 
-## O&O ShutUp10
+## Use O&O ShutUp10
 
-Now that [O&O ShutUp10](https://www.oo-software.com/en/shutup10) is installed (via choco), use it to shut down Win10's annoying telemetry stuff. Then reboot.
-
-
-## Install Sumatra PDF?
-
-For reasons I don't understand installing Sumatra PDF from [the website](https://www.sumatrapdfreader.org/free-pdf-reader.html) seems to make it run better -- probably remove it from the choco list and just install it old school.
+Download [O&O ShutUp10](https://www.oo-software.com/en/shutup10), and use it to shut down Win10's telemetry and other annoying stuff.
 
 
-## Install WSL2 Windows Subsystem for Linux
-
-This section needs to be updated.
-
-
-## Settings that will speed up Windows 10
+## Settings that can speed up Windows 10
 
 ### Disable file indexing
 
-Right-click on drive in File Explorer -> Uncheck "Allow files on this drive to have content indexed in addition to file properties"
+Right-click on Local Disk (C:) drive in File Explorer -> Properties -> Uncheck "Allow files on this drive to have content indexed in addition to file properties"
 
-### Disable Windows Search. 
+### Disable Windows Search.
 
 [Example/instructions](https://www.howtogeek.com/howto/10246/how-to-disable-search-in-windows-7/)
 
-### Disable "Delivery Optimation"
-
-Settings -> Windows Update -> Advanced options -> Delivery Optimization -> turn off "Allow downloads from other PCs"
 
 ### Power settings
 
-RIght-click on Windows menu -> Additional power settings -> "Show/Hide additional plans" or "Create a power plan" -> choose "High performance
+Open Settings, click on "System" -> Power & SLeep  -> Additional power settings -> "Show/Hide additional plans" or "Create a power plan" -> choose "High performance"
 
 
 ## Errata
@@ -58,11 +46,6 @@ RIght-click on Windows menu -> Additional power settings -> "Show/Hide additiona
 
 Open Settings, click "System", then "About", scroll down and click the "Rename this PC" button. (It'll take effect after next reboot).
 
-### Host file ad/malware blocking
+### Upgrade to the latest version of PowerShell
 
-Make necessary additions and changes to the hosts file. I add local hosts, and usually append [Steven Black's adware + malware](https://github.com/StevenBlack/hosts) or something similar.
-
-
-## More resources
-
-[Make Windows Fast](https://youtu.be/nVy4GAtkh7Q) YouTube by Chris Titus Tech
+In the PowerShell terminal, just use winget: `winget install Microsoft.PowerShell` will upgrade to the latest version.
