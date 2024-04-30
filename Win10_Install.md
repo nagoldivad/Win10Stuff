@@ -54,6 +54,6 @@ Open Settings, click on "System" -> Power & Sleep  -> Additional power settings 
 Open Settings, click "System", then "About", scroll down and click the "Rename this PC" button. (It'll take effect after next reboot).
 
 
-### Upgrade to the latest version of PowerShell
+### Upgrade/install PowerShell 7.x
 
-In the PowerShell terminal, just use winget: `winget install Microsoft.PowerShell` will upgrade to the latest version.
+It seems Windows PowerShell (5.1) is what you get and stay with by default in Win 10. If you want to upgrade to PowerShell 7.x just open your currently installed PowerShell terminal and use winget: `winget install Microsoft.PowerShell` will upgrade/install to the latest version.
