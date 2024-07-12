@@ -57,3 +57,15 @@ Open Settings, click "System", then "About", scroll down and click the "Rename t
 ### Upgrade/install PowerShell 7.x
 
 It seems Windows PowerShell (5.1) is what you get and stay with by default in Win 10. If you want to upgrade to PowerShell 7.x just open your currently installed PowerShell terminal and use winget: `winget install Microsoft.PowerShell` will upgrade/install to the latest version.
+
+
+### If you have a HDD
+
+To set your internal HDD to spin down in Windows 10, follow these steps:
+
+* Open the Control Panel and navigate to Power Options
+* Click on "Change plan settings" next to your current power plan
+* Click on "Change advanced power settings"
+* Expand the "Hard disk" option in the list
+* Set the "Turn off hard disk after" value to your desired time (e.g., 5 minutes)
+* Click "Apply" and then "OK" to save the changes
