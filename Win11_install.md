@@ -13,16 +13,26 @@ Documentation and download is on [learn.microsoft.com](https://learn.microsoft.c
 
 ## Use WinGet to install these apps
 
-winget install -e --id Notepad++.Notepad++
-winget install -e --id Mozilla.Firefox
-winget install -e --id Git.Git
-winget install -e --id OpenJS.NodeJS
-winget install -e --id SumatraPDF.SumatraPDF
-winget install -e --id Nikkho.FileOptimizer
-winget install -e --id Flywheel.Local
-winget install -e --id 7zip.7zip
-winget install -e --id AntibodySoftware.WizTree
+```
+$apps = @(
+    "Notepad++.Notepad++",
+    "Mozilla.Firefox",
+    "Google.Chrome",
+    "Git.Git",
+    "Microsoft.VisualStudioCode",
+    "VLC.VLC",
+    "7zip.7zip",
+    "OpenJS.NodeJS",
+	"SumatraPDF.SumatraPDF",
+	"Nikkho.FileOptimizer",
+	"Flywheel.Local",
+	"AntibodySoftware.WizTree"
+)
 
+foreach ($app in $apps) {
+    winget install -e --id $app
+}
+```
 
 ## Install Phone Link
 
@@ -40,9 +50,9 @@ If you have an iPhone you can connect it to Windows 11 by using the Phone Link a
 
 I haven't been using debloat scripts or apps on Windows 11, but here are some options if/when I decide to...
 
-https://github.com/Raphire/Win11Debloat
-https://www.oo-software.com/en/shutup10
-https://christitus.com/windows-tool/
+* https://github.com/Raphire/Win11Debloat
+* https://www.oo-software.com/en/shutup10
+* https://christitus.com/windows-tool/
 
 
 ## Settings that can speed up Windows 10
