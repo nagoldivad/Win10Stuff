@@ -5,6 +5,8 @@ Last updated Feb 2018
 
 This profile is for PowerShell 5
 It should be kept at ~\Documents\WindowsPowerShell\MicrosoftPowerShell_profile.ps1
+or... for PowerShell 7
+$HOME\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 #>
 
 # ==== Set some info in the console's title bar
