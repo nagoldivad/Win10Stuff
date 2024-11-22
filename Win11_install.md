@@ -60,7 +60,7 @@ $apps = @(
 	"REALiX.HWiNFO",
 	"Dropbox.Dropbox",
 	"Amazon.Kindle",
-	Amazon.SendToKindle"
+	"Amazon.SendToKindle"
 )
 
 foreach ($app in $apps) {
@@ -76,7 +76,12 @@ foreach ($app in $apps) {
 3. Then click "Restart File Explorer"
 
 
-## Install Phone Link
+## Optional: Install Intel Arc Control
+
+[Download from Intel's website](https://www.intel.com/content/www/us/en/products/docs/discrete-gpus/arc/software/arc-control.html)
+
+
+## Optional: Install Phone Link
 
 If you have an iPhone you can connect it to Windows 11 by using the Phone Link app. Learn how to install and set up the Phone Link app [here](https://www.microsoft.com/en-us/windows/sync-across-your-devices)
 
