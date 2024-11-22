@@ -44,23 +44,23 @@ Verify the install with ```$PSVersionTable.PSVersion```
 
 ```
 $apps = @(
-    "Notepad++.Notepad++",
-    "Mozilla.Firefox",
-    "Google.Chrome",
-    "Git.Git",
-    "Microsoft.VisualStudioCode",
-    "VLC.VLC",
-    "7zip.7zip",
-    "OpenJS.NodeJS",
-	"SumatraPDF.SumatraPDF",
-	"Nikkho.FileOptimizer",
-	"Flywheel.Local",
-	"AntibodySoftware.WizTree",
-	"GIMP.GIMP",
-	"REALiX.HWiNFO",
-	"Dropbox.Dropbox",
-	"Amazon.Kindle",
-	"Amazon.SendToKindle"
+  "Notepad++.Notepad++",
+  "Mozilla.Firefox",
+  "Google.Chrome",
+  "Git.Git",
+  "Microsoft.VisualStudioCode",
+  "VLC.VLC",
+  "7zip.7zip",
+  "OpenJS.NodeJS",
+  "SumatraPDF.SumatraPDF",
+  "Nikkho.FileOptimizer",
+  "Flywheel.Local",
+  "AntibodySoftware.WizTree",
+  "GIMP.GIMP",
+  "REALiX.HWiNFO",
+  "Dropbox.Dropbox",
+  "Amazon.Kindle",
+  "Amazon.SendToKindle"
 )
 
 foreach ($app in $apps) {
