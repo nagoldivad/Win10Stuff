@@ -11,7 +11,7 @@ This is my collection of config files, PowerShell scripts, and notes for Windows
 
 **Win10_Install.md**: My Windows 10 install procedure notes
 
-**Win11_Install.md**: My Windoes 11 install procedure notes
+**Win11_Install.md**: My Windows 11 install procedure notes
 
 **PowerShell_Snippets.md**: Snippets of useful PowerShell code
 
