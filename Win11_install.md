@@ -111,18 +111,18 @@ Right-click on Local Disk (C:) drive in File Explorer -> Properties -> Uncheck "
 
 ### Services to disable
 
-win+r services.msc
+win+r `services.msc`
 
-Connected User Experience and Telemetry
-Device Management Wireless Application Protocol (WAP) Push message Routing Service
-Program Compatibility Assistant Service
-Windows Biometric Service
-Windows Search
-Windows Error Reporting Service
-Diagnostic Policy Service
+* Connected User Experience and Telemetry
+* Device Management Wireless Application Protocol (WAP) Push message Routing Service
+* Program Compatibility Assistant Service
+* Windows Biometric Service
+* Windows Search
+* Windows Error Reporting Service
+* Diagnostic Policy Service
 
 
-win+r msconfig
+win+r `msconfig`
 
 Disable whichever services you find offensive or pointless
 
