@@ -107,3 +107,23 @@ I haven't been using debloat scripts or apps on Windows 11, I've only used O & O
 ### Disable file indexing
 
 Right-click on Local Disk (C:) drive in File Explorer -> Properties -> Uncheck "Allow files on this drive to have content indexed in addition to file properties"
+
+
+### Services to disable
+
+win+r services.msc
+
+Connected User Experience and Telemetry
+Device Management Wireless Application Protocol (WAP) Push message Routing Service
+Program Compatibility Assistant Service
+Windows Biometric Service
+Windows Search
+Windows Error Reporting Service
+Diagnostic Policy Service
+
+
+win+r msconfig
+
+Disable whichever services you find offensive or pointless
+
+Taken from this video: https://www.youtube.com/watch?v=RMS4-05vQxY
