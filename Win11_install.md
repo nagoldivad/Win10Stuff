@@ -1,7 +1,7 @@
 # My Windows 11 install routine
 
 2024 October
-(last updated 2024 November)
+(last updated 2026 February)
 
 
 ## Introduction
@@ -31,6 +31,8 @@ The following comes from [an article on pureinfotech.com](https://pureinfotech.c
 ## Install WinGet
 
 Documentation and download is on [learn.microsoft.com](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+
+Note: WinGet is now included by default in Win 11 Home and Pro.
 
 
 ## Install PowerShell 7
@@ -101,6 +103,11 @@ I haven't been using debloat scripts or apps on Windows 11, I've only used O & O
 * https://christitus.com/windows-tool/
 
 
+## Remove ads from File Explorer
+
+Disable File Explorer ads: In File Explorer, open the "Options" and select the "View" tab, and deselect "Show sync provider notifications"
+
+
 ## Settings that can speed up Windows 11
 
 
@@ -125,5 +132,6 @@ win+r `services.msc`
 win+r `msconfig`
 
 Disable whichever services you find offensive or pointless
+
 
 Taken from this video: https://www.youtube.com/watch?v=RMS4-05vQxY
