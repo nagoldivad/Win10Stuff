@@ -89,6 +89,11 @@ foreach ($app in $apps) {
 If you have an iPhone you can connect it to Windows 11 by using the Phone Link app. Learn how to install and set up the Phone Link app [here](https://www.microsoft.com/en-us/windows/sync-across-your-devices)
 
 
+## Optional: Disable File Explorer ads
+
+In File Explorer, open the "Options" and select the "View" tab, and deselect "Show sync provider notifications"
+
+
 ## Install WSL
 
 See [How to install Linux on Windows with WSL](https://learn.microsoft.com/en-us/windows/wsl/install) on Microsoft Learn. To install debian use an admin PowerShell: ```wsl --install -d debian```
